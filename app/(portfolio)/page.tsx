@@ -97,35 +97,35 @@ export default function Home() {
         </h2>
 
         {/* Card do projeto */}
-        <div className="w-105 h-105 bg-white rounded-3xl shadow-xl 
-  flex flex-col items-center justify-between p-10 hover:scale-105 transition">
+        <a href="/projetos/jogo-da-forca" target="_blank" rel="noopener noreferrer">
+          <div className="w-105 h-105 bg-white rounded-3xl shadow-xl 
+    flex flex-col items-center justify-between p-10 
+    hover:scale-105 transition cursor-pointer">
 
-          {/* Imagem */}
-          <Image
-            src="/forca.png"
-            alt="Jogo da Forca"
-            width={280}
-            height={280}
-            className="mb-8"
-          />
+            {/* Imagem */}
+            <Image
+              src="/forca.png"
+              alt="Jogo da Forca"
+              width={280}
+              height={280}
+              className="mb-8"
+            />
 
-          {/* Texto */}
-          <p className="text-xl text-black font-semibold">
-            Jogo da forca com Next.js
-          </p>
+            {/* Texto */}
+            <p className="text-xl text-black font-semibold">
+              Jogo da forca com Next.js
+            </p>
 
-        </div>
+          </div>
+        </a>
       </section>
 
-
-
-
       {/* CONTATO */}
-      <section 
-      id="contact" 
-      className="min-h-screen px-20 flex flex-col justify-start pt-30"
-      style={{ scrollMarginTop: "-20px" }}>
-        
+      <section
+        id="contact"
+        className="min-h-screen px-20 flex flex-col justify-start pt-30"
+        style={{ scrollMarginTop: "-20px" }}>
+
         <h2 className="text-6xl font-bold mb-12 font-(--font-orbitron)]">Contatos</h2>
 
         <div className="flex flex-col md:flex-row gap-16">
@@ -136,7 +136,7 @@ export default function Home() {
               <h3 className="text-2xl font-semibold mb-4 font-(--font-space)]">Fale comigo</h3>
               <p className="text-gray-300 text-lg">
                 Atualmente, estou dedicado a explorar e criar projetos que unem programação e experiências interativas. Se você está desenvolvendo um software, jogo ou aplicação que se beneficiaria de uma implementação bem estruturada e pensada, entre em contato pelo email <span className="text-white font-semibold">pedrojordao2005@email.com </span>
- e conte um pouco mais sobre o seu projeto.
+                e conte um pouco mais sobre o seu projeto.
               </p>
 
               <p className="text-gray-300 text-lg mt-4">
@@ -222,4 +222,4 @@ export default function Home() {
     </main>
   )
 }
-{/*npm run dev*/}
+{/*npm run dev*/ }
