@@ -30,7 +30,7 @@ export default function Home() {
       className={`${inter.variable} ${spaceGrotesk.variable} ${orbitron.variable} bg-cover bg-center text-white`}
       style={{
         backgroundImage:
-          "linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/fundo-portfolio.jpg')",
+          "linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/fundo-portfolio.png')",
       }}
     >
 
