@@ -26,7 +26,13 @@ const sora = Sora({
 
 export default function Home() {
   return (
-    <main className={`${inter.variable} ${spaceGrotesk.variable} ${orbitron.variable} bg-[url('/fundo-portfolio.jpg')] bg-cover bg-center bg-black/60 bg-blend-overlay text-white`}>
+    <main
+      className={`${inter.variable} ${spaceGrotesk.variable} ${orbitron.variable} bg-cover bg-center text-white`}
+      style={{
+        backgroundImage:
+          "linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/fundo-portfolio.jpg')",
+      }}
+    >
 
       {/* ABOUT */}
       <section id="about" className="min-h-screen flex flex-col justify-center px-20 ">
