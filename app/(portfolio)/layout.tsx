@@ -1,5 +1,9 @@
 import { Inter, Space_Grotesk } from "next/font/google";
 
+export const metadata = {
+  title: "Portfólio",
+};
+
 const inter = Inter({
   subsets: ["latin"],
   variable: "--font-inter",
