@@ -36,7 +36,7 @@ export default function Home() {
           {/* FOTO */}
           <div className="relative w-87.5 h-100">
             <Image
-              src="/foto Portfolio.jpeg"
+              src="/foto-portfolio.jpeg"
               alt="Foto de Pedro Garcia"
               fill
               className="rounded-2xl object-cover shadow-2xl"
