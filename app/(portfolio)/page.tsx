@@ -45,7 +45,7 @@ export default function Home() {
               src="/foto-portfolio.jpeg"
               alt="Foto de Pedro Garcia"
               fill
-              className="rounded-2xl object-cover shadow-2xl"
+              className="rounded-2xl object-cover shadow-2xl grayscale"
             />
           </div>
 
