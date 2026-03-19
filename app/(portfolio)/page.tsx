@@ -37,7 +37,7 @@ export default function Home() {
       {/* ABOUT */}
       <section id="about" className="min-h-screen flex flex-col justify-center px-6 md:px-10 xl:px-16">
 
-        <div className="ax-w-6xl mx-auto w-full flex flex-col lg:flex-row items-center lg:items-start gap-10 lg:gap-16">
+        <div className="max-w-6xl mx-auto w-full flex flex-col lg:flex-row items-center lg:items-start gap-10 lg:gap-16">
 
           {/* FOTO */}
           <div className="relative w-[280px] h-[320px] sm:w-[320px] sm:h-[380px] lg:w-[350px] lg:h-[420px] shrink-0">
