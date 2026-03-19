@@ -35,12 +35,12 @@ export default function Home() {
     >
 
       {/* ABOUT */}
-      <section id="about" className="min-h-screen flex flex-col justify-center px-20 ">
+      <section id="about" className="min-h-screen flex flex-col justify-center px-6 md:px-10 xl:px-16">
 
-        <div className="flex items-start gap-20">
+        <div className="ax-w-6xl mx-auto w-full flex flex-col lg:flex-row items-center lg:items-start gap-10 lg:gap-16">
 
           {/* FOTO */}
-          <div className="relative w-87.5 h-100">
+          <div className="relative w-[280px] h-[320px] sm:w-[320px] sm:h-[380px] lg:w-[350px] lg:h-[420px] shrink-0">
             <Image
               src="/foto-portfolio.jpeg"
               alt="Foto de Pedro Garcia"
@@ -50,12 +50,12 @@ export default function Home() {
           </div>
 
           {/* TEXTO */}
-          <div className="space-y-6">
-            <h1 className="text-6xl font-bold font-(family-name:--font-space)">
+          <div className="space-y-6 max-w-3xl">
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold font-(family-name:--font-space)">
               Pedro Garcia
             </h1>
 
-            <p className="text-xl text-gray-400 max-w-3xl font-(family-name:--font-inter)">
+            <p className="text-base sm:text-lg lg:text-xl text-gray-400 leading-relaxed font-(family-name:--font-inter)">
               Sou estudante de <span className="text-white font-semibold">Computação</span> e
               desenvolvedor em formação, apaixonado por <span className="text-white font-semibold">tecnologia </span>
               e pelo processo de transformar <span className="text-white font-semibold">ideias em soluções reais </span>
@@ -63,7 +63,7 @@ export default function Home() {
               ferramentas, linguagens e conceitos que ampliem minha forma de pensar e construir software.
             </p>
 
-            <p className="text-xl text-gray-400 max-w-3xl font-(family-name:--font-inter)">
+            <p className="text-base sm:text-lg lg:text-xl text-gray-400 leading-relaxed font-(family-name:--font-inter)">
               Ao longo da minha formação, venho desenvolvendo <span className="text-white font-semibold">projetos pessoais </span>
               que me permitem aplicar na prática os conhecimentos adquiridos, além de aprimorar habilidades
               como <span className="text-white font-semibold">organização de código</span>,
@@ -78,7 +78,7 @@ export default function Home() {
         </div>
 
         {/* STACKS */}
-        <div className="mt-16 flex flex-wrap gap-4 justify-center">
+        <div className="max-w-6xl mx-auto w-full mt-12 flex flex-wrap gap-3 sm:gap-4 justify-center lg:justify-center">
 
           <span className="bg-zinc-800 px-4 py-2 rounded-md text-sm">Next.js</span>
           <span className="bg-zinc-800 px-4 py-2 rounded-md text-sm">React</span>
@@ -104,9 +104,7 @@ export default function Home() {
 
         {/* Card do projeto */}
         <a href="/projetos/jogo-da-forca" target="_blank" rel="noopener noreferrer">
-          <div className="w-105 h-105 bg-white rounded-3xl shadow-xl 
-    flex flex-col items-center justify-between p-10 
-    hover:scale-105 transition cursor-pointer">
+          <div className="w-full max-w-sm min-h-[420px] bg-white rounded-3xl shadow-xl flex flex-col items-center justify-between p-8 hover:scale-105 transition cursor-pointer">
 
             {/* Imagem */}
             <Image
@@ -114,7 +112,7 @@ export default function Home() {
               alt="Jogo da Forca"
               width={280}
               height={280}
-              className="mb-8"
+              className="mb-8 w-full max-w-[260px] h-auto"
             />
 
             {/* Texto */}
@@ -129,17 +127,17 @@ export default function Home() {
       {/* CONTATO */}
       <section
         id="contact"
-        className="min-h-screen px-20 flex flex-col justify-start pt-30"
+        className="min-h-screen px-6 md:px-10 xl:px-16 flex flex-col justify-start pt-20 lg:pt-24 scroll-mt-240"
         style={{ scrollMarginTop: "-20px" }}>
 
-        <h2 className="text-6xl font-bold mb-12 font-(--font-orbitron)]">Contatos</h2>
+        <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-12 font-(family-name:--font-space)">Contatos</h2>
 
         <div className="flex flex-col md:flex-row gap-16">
 
           {/* LADO ESQUERDO: Email e telefone */}
           <div className="flex-1 space-y-6">
             <div className="bg-zinc-800 rounded-2xl p-8 shadow-lg">
-              <h3 className="text-2xl font-semibold mb-4 font-(--font-space)]">Fale comigo</h3>
+              <h3 className="text-2xl font-semibold mb-4 font-(family-name:--font-space)">Fale comigo</h3>
               <p className="text-gray-300 text-lg">
                 Atualmente, estou dedicado a explorar e criar projetos que unem programação e experiências interativas. Se você está desenvolvendo um software, jogo ou aplicação que se beneficiaria de uma implementação bem estruturada e pensada, entre em contato pelo email <span className="text-white font-semibold">pedrojordao2005@email.com </span>
                 e conte um pouco mais sobre o seu projeto.
@@ -153,7 +151,7 @@ export default function Home() {
 
           {/* LADO DIREITO: Redes sociais */}
           <div className="flex-1 space-y-6">
-            <h3 className="text-4xl font-semibold font-(--font-space)]">Outras formas</h3>
+            <h3 className="text-3xl sm:text-4xl font-semibold font-(family-name:--font-space)">Outras formas</h3>
 
             <div className="grid grid-cols-2 gap-6">
               {/* Instagram */}
