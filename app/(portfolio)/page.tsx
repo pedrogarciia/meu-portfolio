@@ -139,8 +139,10 @@ export default function Home() {
             <div className="bg-zinc-800 rounded-2xl p-8 shadow-lg">
               <h3 className="text-2xl font-semibold mb-4 font-(family-name:--font-space)">Fale comigo</h3>
               <p className="text-gray-300 text-lg">
-                Atualmente, estou dedicado a explorar e criar projetos que unem programação e experiências interativas. Se você está desenvolvendo um software, jogo ou aplicação que se beneficiaria de uma implementação bem estruturada e pensada, entre em contato pelo email <span className="text-white font-semibold">pedrojordao2005@email.com </span>
-                e conte um pouco mais sobre o seu projeto.
+                Atualmente, estou dedicado a explorar e desenvolver projetos que unem programação e experiências interativas, buscando sempre criar soluções eficientes, bem estruturadas e com foco na experiência do usuário. Tenho interesse em construir aplicações que não apenas funcionem corretamente, mas que também ofereçam uma navegação intuitiva e agradável.
+
+Se você está desenvolvendo um software, jogo ou aplicação que possa se beneficiar de uma implementação bem planejada e organizada, ficarei feliz em contribuir. Entre em contato pelo e-mail <span className="text-white font-semibold">pedrojordao2005@email.com </span>
+                e conte um pouco mais sobre o seu projeto — será um prazer conversar e, quem sabe, colaborar no seu desenvolvimento.
               </p>
 
               <p className="text-gray-300 text-lg mt-4">
