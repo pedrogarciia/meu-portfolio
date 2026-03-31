@@ -103,33 +103,35 @@ export default function Home() {
         </h2>
 
         {/* CONTAINER DOS CARDS */}
-        <div className="flex gap-10 flex-wrap justify-center">
+        <div className="flex flex-wrap justify-center gap-6 md:gap-10 lg:gap-14 max-w-[1400px]">
 
           <a href="/projetos/jogo-da-forca" target="_blank" rel="noopener noreferrer">
-            <div className="w-full max-w-sm min-h-[420px] bg-white rounded-3xl shadow-xl flex flex-col items-center justify-between p-8 hover:scale-105 transition cursor-pointer">
+            <div className="w-full sm:w-[300px] md:w-[340px] lg:w-[380px] xl:w-[420px]
+               h-[420px] md:h-[460px] lg:h-[520px] xl:h-[580px] bg-white rounded-3xl shadow-xl flex flex-col items-center justify-between p-8 hover:scale-105 transition cursor-pointer">
               <Image
                 src="/forca.png"
                 alt="Jogo da Forca"
                 width={280}
                 height={280}
-                className="mb-8 w-full max-w-[260px] h-auto"
+                className="mb-6 w-full max-w-[200px] md:max-w-[240px] lg:max-w-[280px]"
               />
-              <p className="text-xl text-black font-semibold">
+              <p className="text-lg md:text-xl lg:text-2xl text-black font-semibold text-center">
                 Jogo da forca com Next.js
               </p>
             </div>
           </a>
 
           <a href="/projetos/jogo-de-dados" target="_blank" rel="noopener noreferrer">
-            <div className="w-full max-w-sm min-h-[420px] bg-white rounded-3xl shadow-xl flex flex-col items-center justify-between p-8 hover:scale-105 transition cursor-pointer">
+            <div className="w-full sm:w-[300px] md:w-[340px] lg:w-[380px] xl:w-[420px]
+               h-[420px] md:h-[460px] lg:h-[520px] xl:h-[580px] bg-white rounded-3xl shadow-xl flex flex-col items-center justify-between p-8 hover:scale-105 transition cursor-pointer">
               <Image
                 src="/dados.png"
                 alt="Jogo de dados"
                 width={280}
                 height={280}
-                className="mb-8 w-full max-w-[260px] h-auto"
+                className="mb-6 w-full max-w-[200px] md:max-w-[240px] lg:max-w-[280px]"
               />
-              <p className="text-xl text-black font-semibold">
+              <p className="text-lg md:text-xl lg:text-2xl text-black font-semibold text-center">
                 Jogo de dados com Next.js
               </p>
             </div>
