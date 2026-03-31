@@ -31,15 +31,15 @@ O site foi criado para:
 
 ---
 
-##  Projeto em Destaque
+##  Projetos em Destaque
 
-### Jogo da Forca (Hangman)
+### Jogo da Forca (Hangman) e Jogo de dados
 
-Um dos projetos principais do portfólio é o Jogo da Forca, desenvolvido em Next.js.
+osprojetos principais do portfólio são o Jogo da Forca e o jogo de sorte com dados, desenvolvidos em Next.js.
 
 **Destaques:**
 - Interface interativa
-- Lógica completa do jogo
+- Lógica completa dos jogos
 - Estilo visual personalizado
 - Uso de React Hooks (useState, useEffect)
 - Estrutura organizada em componentes
@@ -80,7 +80,6 @@ O projeto está hospedado na Vercel, permitindo:
 - Melhorar animações e interações
 - Implementar backend futuramente
 - Integrar com APIs externas
-- Adicionar modo claro (light mode)
 
 ---
 
