@@ -102,26 +102,40 @@ export default function Home() {
           Projetos
         </h2>
 
-        {/* Card do projeto */}
-        <a href="/projetos/jogo-da-forca" target="_blank" rel="noopener noreferrer">
-          <div className="w-full max-w-sm min-h-[420px] bg-white rounded-3xl shadow-xl flex flex-col items-center justify-between p-8 hover:scale-105 transition cursor-pointer">
+        {/* CONTAINER DOS CARDS */}
+        <div className="flex gap-10 flex-wrap justify-center">
 
-            {/* Imagem */}
-            <Image
-              src="/forca.png"
-              alt="Jogo da Forca"
-              width={280}
-              height={280}
-              className="mb-8 w-full max-w-[260px] h-auto"
-            />
+          <a href="/projetos/jogo-da-forca" target="_blank" rel="noopener noreferrer">
+            <div className="w-full max-w-sm min-h-[420px] bg-white rounded-3xl shadow-xl flex flex-col items-center justify-between p-8 hover:scale-105 transition cursor-pointer">
+              <Image
+                src="/forca.png"
+                alt="Jogo da Forca"
+                width={280}
+                height={280}
+                className="mb-8 w-full max-w-[260px] h-auto"
+              />
+              <p className="text-xl text-black font-semibold">
+                Jogo da forca com Next.js
+              </p>
+            </div>
+          </a>
 
-            {/* Texto */}
-            <p className="text-xl text-black font-semibold">
-              Jogo da forca com Next.js
-            </p>
+          <a href="/projetos/jogo-de-dados" target="_blank" rel="noopener noreferrer">
+            <div className="w-full max-w-sm min-h-[420px] bg-white rounded-3xl shadow-xl flex flex-col items-center justify-between p-8 hover:scale-105 transition cursor-pointer">
+              <Image
+                src="/dados.png"
+                alt="Jogo de dados"
+                width={280}
+                height={280}
+                className="mb-8 w-full max-w-[260px] h-auto"
+              />
+              <p className="text-xl text-black font-semibold">
+                Jogo de dados com Next.js
+              </p>
+            </div>
+          </a>
 
-          </div>
-        </a>
+        </div>
       </section>
 
       {/* CONTATO */}
@@ -142,7 +156,7 @@ export default function Home() {
                 Atualmente, estou dedicado a explorar e desenvolver projetos que unem programação e experiências interativas, buscando sempre criar soluções eficientes, bem estruturadas e com foco na experiência do usuário. Tenho interesse em construir aplicações que não apenas funcionem corretamente, mas que também ofereçam uma navegação intuitiva e agradável.
               </p>
               <p className="text-gray-300 text-lg">
-Se você está desenvolvendo um software, jogo ou aplicação que possa se beneficiar de uma implementação bem planejada e organizada, ficarei feliz em contribuir. Entre em contato pelo e-mail <span className="text-white font-semibold">pedrojordao2005@email.com </span>
+                Se você está desenvolvendo um software, jogo ou aplicação que possa se beneficiar de uma implementação bem planejada e organizada, ficarei feliz em contribuir. Entre em contato pelo e-mail <span className="text-white font-semibold">pedrojordao2005@email.com </span>
                 e conte um pouco mais sobre o seu projeto. Será um prazer conversar e, quem sabe, colaborar no seu desenvolvimento.
               </p>
 
