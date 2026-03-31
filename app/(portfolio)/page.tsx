@@ -107,7 +107,7 @@ export default function Home() {
 
           <a href="/projetos/jogo-da-forca" target="_blank" rel="noopener noreferrer">
             <div className="w-full sm:w-[300px] md:w-[340px] lg:w-[380px] xl:w-[420px]
-               h-[420px] md:h-[460px] lg:h-[520px] xl:h-[580px] bg-white rounded-3xl shadow-xl flex flex-col items-center justify-between p-8 hover:scale-105 transition cursor-pointer">
+               min-h-[360px] sm:min-h-[400px] md:min-h-[440px] lg:min-h-[500px] bg-white rounded-3xl shadow-xl flex flex-col items-center justify-between p-8 hover:scale-105 transition cursor-pointer">
               <Image
                 src="/forca.png"
                 alt="Jogo da Forca"
@@ -123,7 +123,7 @@ export default function Home() {
 
           <a href="/projetos/jogo-de-dados" target="_blank" rel="noopener noreferrer">
             <div className="w-full sm:w-[300px] md:w-[340px] lg:w-[380px] xl:w-[420px]
-               h-[420px] md:h-[460px] lg:h-[520px] xl:h-[580px] bg-white rounded-3xl shadow-xl flex flex-col items-center justify-between p-8 hover:scale-105 transition cursor-pointer">
+               min-h-[360px] sm:min-h-[400px] md:min-h-[440px] lg:min-h-[500px] bg-white rounded-3xl shadow-xl flex flex-col items-center justify-between p-8 hover:scale-105 transition cursor-pointer">
               <Image
                 src="/dados.png"
                 alt="Jogo de dados"
