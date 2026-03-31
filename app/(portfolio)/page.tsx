@@ -103,35 +103,33 @@ export default function Home() {
         </h2>
 
         {/* CONTAINER DOS CARDS */}
-        <div className="flex flex-wrap justify-center gap-6 md:gap-10 lg:gap-14 max-w-[1400px]">
+        <div className="flex gap-10 flex-wrap justify-center">
 
           <a href="/projetos/jogo-da-forca" target="_blank" rel="noopener noreferrer">
-            <div className="w-full sm:w-[300px] md:w-[340px] lg:w-[380px] xl:w-[420px]
-               min-h-[360px] sm:min-h-[400px] md:min-h-[440px] lg:min-h-[500px] bg-white rounded-3xl shadow-xl flex flex-col items-center justify-between p-8 hover:scale-105 transition cursor-pointer">
+            <div className="w-full max-w-sm min-h-[420px] bg-white rounded-3xl shadow-xl flex flex-col items-center justify-between p-8 hover:scale-105 transition cursor-pointer">
               <Image
                 src="/forca.png"
                 alt="Jogo da Forca"
                 width={280}
                 height={280}
-                className="mb-6 w-full max-w-[200px] md:max-w-[240px] lg:max-w-[280px]"
+                className="mb-8 w-full max-w-[260px] h-auto"
               />
-              <p className="text-lg md:text-xl lg:text-2xl text-black font-semibold text-center">
+              <p className="text-xl text-black font-semibold">
                 Jogo da forca com Next.js
               </p>
             </div>
           </a>
 
           <a href="/projetos/jogo-de-dados" target="_blank" rel="noopener noreferrer">
-            <div className="w-full sm:w-[300px] md:w-[340px] lg:w-[380px] xl:w-[420px]
-               min-h-[360px] sm:min-h-[400px] md:min-h-[440px] lg:min-h-[500px] bg-white rounded-3xl shadow-xl flex flex-col items-center justify-between p-8 hover:scale-105 transition cursor-pointer">
+            <div className="w-full max-w-sm min-h-[420px] bg-white rounded-3xl shadow-xl flex flex-col items-center justify-between p-8 hover:scale-105 transition cursor-pointer">
               <Image
                 src="/dados.png"
                 alt="Jogo de dados"
                 width={280}
                 height={280}
-                className="mb-6 w-full max-w-[200px] md:max-w-[240px] lg:max-w-[280px]"
+                className="mb-8 w-full max-w-[260px] h-auto"
               />
-              <p className="text-lg md:text-xl lg:text-2xl text-black font-semibold text-center">
+              <p className="text-xl text-black font-semibold">
                 Jogo de dados com Next.js
               </p>
             </div>
@@ -245,4 +243,5 @@ export default function Home() {
     </main>
   )
 }
+
 {/*npm run dev*/ }
