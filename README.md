@@ -1,5 +1,7 @@
 # Portfólio Pessoal – Pedro Garcia
 
+https://meu-portfolio-eight-pink.vercel.app/
+
 Este é o meu site de portfólio desenvolvido com **Next.js**, com o objetivo de apresentar meus projetos, habilidades e experiências como estudante de Ciência da Computação.
 
 O projeto foi construído com foco em **design moderno, performance e interatividade**, servindo como vitrine dos meus trabalhos e também como demonstração prática das minhas habilidades em desenvolvimento web.
