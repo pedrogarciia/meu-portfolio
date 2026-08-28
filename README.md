@@ -1,4 +1,4 @@
-# Portfólio Pessoal – Pedro Garcia
+# Portfólio Acâdemico – Pedro Garcia
 
 https://meu-portfolio-eight-pink.vercel.app/
 
